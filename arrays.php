@@ -9,14 +9,12 @@
 
 <body>
     <h2>Array</h2>
-
     <p>
-        Q. what is an array ?? <br>
-        --->> An array is a variable that can store multiple values in one single variable. <br>
-
-        Q. Types of Arrays in PHP : <br>
-        1.Indexed Arrays <br>
-        2.Associative Arrays <br>
+        Q. what is an array ??
+        -->> An array is a variable that can store multiple values in one single variable.
+        Q. Types of Arrays in PHP :
+        1.Indexed Arrays
+        2.Associative Arrays
         3.Multidimensional Arrays
     </p>
 
@@ -25,14 +23,9 @@
     $ages = [25, 30, 22, 28];
     $fruits = ["Apple", "Banana", "Cherry"];
     $colors = ["Red", "Green", "Blue"];
-
     echo $ages[0];       // 25
     echo $fruits[1];     // Banana
     echo $colors[2];     // Blue
-
-    // ----------------------------Print Full Array list -----------------------------------
-    print_r($fruits);  
-    // Output: Array ( [0] => Apple [1] => Grape [2] => Cherry)
 
 
 
@@ -44,9 +37,26 @@
     $friendsName[] = "Radwan";
     print_r($friendsName);
     // Output: Array ( [0] => Mahedi [1] => Hasan [2] => Bulbul [3] => Radwan )
-
     // Getting the length of an Indexed Array:
-    print_r(count($friendsName));   
+    print_r(count($friendsName));
+
+
+
+
+    //------------------------ for/foreach loop (Good for when you need the index): ---------------------------
+    $colors = ["Red", "Green", "Blue", "Yellow", "Orange"];
+    for ($i = 0; $i < count($colors); $i++) {
+        print_r("Index $i = $colors[$i] <br>");
+    }
+
+    foreach ($colors as $singleColor) {
+        print_r($singleColor . "<br>");
+    }
+
+    foreach ($colors as $index => $color) {
+        print_r("Index $index = $color <br>");
+    }
+
 
 
     ?>
