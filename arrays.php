@@ -12,6 +12,7 @@
     <p>
         Q. what is an array ??
         -->> An array is a variable that can store multiple values in one single variable.
+        
         Q. Types of Arrays in PHP :
         1.Indexed Arrays
         2.Associative Arrays
@@ -25,12 +26,10 @@
     $colors = ["Red", "Green", "Blue"];
     echo $ages[0];       // 25
     echo $fruits[1];     // Banana
-    echo $colors[2];     // Blue
 
 
 
     // <! ----------------- Adding elements to an Indexed Array -------------------------------->
-    // You can add new elements to the end of an indexed array by using empty square brackets [].
 
     $friendsName = ["Mahedi", "Hasan"];
     $friendsName[] = "Bulbul";
@@ -56,8 +55,6 @@
     foreach ($colors as $index => $color) {
         print_r("Index $index = $color <br>");
     }
-
-
 
     ?>
 
