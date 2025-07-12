@@ -12,10 +12,12 @@
 
     <?php
     $car = [
-        "brand" => "Toyota",
-        "model" => "Camry",
-        "year" => 2022,
-        "color" => "Blue"
+        [
+            "brand" => "Toyota",
+            "model" => "Camry",
+            "year" => 2022,
+            "color" => "Blue"
+        ],
     ];
     $car['Price'] = '$100k';
     print_r($car);
