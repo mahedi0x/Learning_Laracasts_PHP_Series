@@ -9,15 +9,14 @@
 
 <body>
     <h2>Array</h2>
-    <p>
-        Q. what is an array ??
-        -->> An array is a variable that can store multiple values in one single variable.
-        
-        Q. Types of Arrays in PHP :
+    <h3>
+
+        Q. Types of Arrays in PHP : <br>
+
         1.Indexed Arrays
         2.Associative Arrays
         3.Multidimensional Arrays
-    </p>
+    </h3>
 
     <!--------------- Array Declare and get elements by index[]  ------------------------>
     <?php
@@ -36,7 +35,7 @@
     $friendsName[] = "Radwan";
     print_r($friendsName);
     // Output: Array ( [0] => Mahedi [1] => Hasan [2] => Bulbul [3] => Radwan )
-    // Getting the length of an Indexed Array:
+
     print_r(count($friendsName));
 
 
@@ -48,15 +47,19 @@
         print_r("Index $i = $colors[$i] <br>");
     }
 
+
     foreach ($colors as $singleColor) {
         print_r($singleColor . "<br>");
     }
+
 
     foreach ($colors as $index => $color) {
         print_r("Index $index = $color <br>");
     }
 
     ?>
+
+
 
 </body>
 

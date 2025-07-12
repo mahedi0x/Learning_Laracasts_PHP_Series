@@ -11,44 +11,7 @@
 
 <body>
 
-    <!-- <h2> -->
-
-    <!--------------------Create Variable and It Print in HTML tag --------------------->
-    <?php
-    // $name = "Mahedi Hasan";
-    // $university = "Metropolitan";
-    // echo "Hello I'm  $name ";
-    // echo "<br>";
-    // echo "University : ". $university;
-    ?>
-    <!-- </h2> -->
-
-    <!-- <h1>
-        Hello <?php echo $name ?>.
-    </h1> -->
-
-
-
-    <!--------------------Conditional Statement  --------------------->
-    <?php
-    $name = "Mahedi";
-    $readBook = true;
-
-    if ($readBook == true) {
-        $message = "Mahedi Read the Book ";
-        // echo "$name Read the Book ";
-    } else {
-        $message = "He Don't Read the Book ";
-    }
-    ?>
-
-
-    <h1>Hii!! <?php echo "$message" ?> </h1>
-   <!-----------Shortcut ----------------------->
-    <h1>
-       Hii, <?= $message?> 
-    </h1>
-
+   <h1>Welcome to PHP</h1>
 
 </body>
 
