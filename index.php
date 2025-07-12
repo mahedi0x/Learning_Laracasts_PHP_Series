@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles/style.css">
-    <title>Laracasts PHP Series</title>
 
-</head>
+$business = [
+        "brand" => "Toyota",
+        "model" => "Camry",
+        "year" => 2022,
+        "colors" => ["Red", "Black", "Gray"]
+];
 
-<body>
 
-   <h1>Welcome to PHP</h1>
+require "index.view.php";
 
-</body>
-
-</html>
